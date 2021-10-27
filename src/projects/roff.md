@@ -9,6 +9,7 @@ slug: roff
 link: roff.in
 priority: 2
 featuredImg: ../images/featured/roff.png
+thumbnails: ../images/thumbnails/roff.png
 ---
 
 # what

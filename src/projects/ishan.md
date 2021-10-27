@@ -8,6 +8,7 @@ slug: ishan
 mentor: Dr Abhishek Shrivastava
 priority: 4
 featuredImg: ../images/featured/ishan.png
+thumbnails: ../images/thumbnails/ishan.png
 ---
 
 # what

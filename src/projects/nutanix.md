@@ -7,6 +7,7 @@ slug: nutanix
 duration: May 2021 to July 2021
 priority: 3
 featuredImg: ../images/featured/nutanix.png
+thumbnails: ../images/thumbnails/nutanix.png
 ---
 
 # what

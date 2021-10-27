@@ -7,6 +7,7 @@ slug: genefit
 duration: 1 week
 priority: 1
 featuredImg: ../images/featured/genefit.png
+thumbnails: ../images/thumbnails/genefit.png
 ---
 
 # what
@@ -32,3 +33,5 @@ High fidelity designs, close to the final product.
 
 4. Reiterate
 Feedback and rebuilding the design to perfect it.
+
+![GeneFit](../images/featured/genefit.png)

@@ -63,8 +63,12 @@ nav a:hover {
 footer {
     background-color: #C8C8D9;
     color: #111115;
+    text-align: center;
+}
+footer icon {
+    margin-left: 20px;
+    padding-bottom: 8px;
 }
 footer p {
-    text-align: center;
     margin: 40px auto;
 }
