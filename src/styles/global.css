@@ -1,0 +1,52 @@
+* {
+    font-family: 'Freight Sans Pro';
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body {
+    min-height: 100%;
+    color: #EFEFEF;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 16px auto;
+    line-height: 1.5em;
+    letter-spacing: 0.02rem;
+}
+
+.layout {
+    margin: 0 auto;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+}
+nav .links {
+    display: inline-block;
+    text-align: right;
+}
+nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 300;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+nav a:hover {
+    border-color: white;
+}
+footer {
+    background-color: #C8C8D9;
+    color: #111115;
+}
+footer p {
+    text-align: center;
+    margin: 40px auto;
+}
