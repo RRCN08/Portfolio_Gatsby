@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 
 export default function ProjectDetails({ data }) {
     const { html } = data.markdownRemark
-    const { title, subtitle, duration, featuredImg} = data.markdownRemark.frontmatter
+    const { title, slug, subtitle, duration, featuredImg} = data.markdownRemark.frontmatter
     return (
         <Layout>
             <div className={details}>
@@ -14,7 +14,7 @@ export default function ProjectDetails({ data }) {
                 <h3>{subtitle}</h3>
                 <h6>{duration}</h6>
                 <div className={featured}>
-                {<GatsbyImage image={getImage(data.markdownRemark.frontmatter.featuredImg)} alt={data.markdownRemark.frontmatter.slug} />}
+                {<GatsbyImage image={getImage(featuredImg)} alt={slug} />}
                 </div>
                 {<div className={html} dangerouslySetInnerHTML={ { __html: html}} />}
             </div>

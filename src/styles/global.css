@@ -5,9 +5,26 @@
     text-decoration: none;
 }
 
+body {
+    --bg: #efefef;
+    --primaryText: #111115;
+    --secondaryText: #777;
+
+    background-color: var(--bg);
+    color: var(--primaryText);
+  }
+  body.dark {
+    --bg: #111115;
+    --primaryText: #efefef;
+    --secondaryText: #9d9d9d;
+
+    background-color: var(--bg);
+    color: var(--primaryText);
+
+  }
+
 html, body {
     min-height: 100%;
-    color: #EFEFEF;
 }
 
 p {
@@ -24,6 +41,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 40px auto;
+    max-width: 90vw;
 }
 nav .links {
     display: inline-block;
